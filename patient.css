@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffdfd;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+}
+
+.Patient-Form {
+    background-color: #29b6f6;
+    border-radius: 10px;  
+    padding: 20px;
+    width: 500px; 
+    margin: 50px auto;
+    border: 1px solid black;
+    box-shadow: 0 4px 8px black; 
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#patientGender {
+    padding: 10px;
+    margin-bottom: 1px;
+    color: #555;
+}
+
+#patientName,#patientAge,
+#patientGender,
+#patientLocation,
+#patientComplaint {
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: white;
+    width: 30%;
+    color: black;
+    padding: 10px;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 35%; 
+}
+
+button:hover {
+    background-color: rgb(236, 182, 80);
+}
+
+.box{
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
